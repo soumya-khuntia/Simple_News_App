@@ -1,1 +1,1 @@
-Simple News Application
+# Simple News Application
