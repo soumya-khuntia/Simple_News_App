@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>News Hub</title>
+    <link rel="stylesheet" href='/static/style.css'>
+</head>
+<body>
+<header>
+    <h1>News Application</h1>
+    <form action="{% url 'search' %}" method="GET">
+        <input type="text" name="q" placeholder="Search For Keyword">
+        <button type="submit">Search</button>
+    </form>
+</header>
+{% block content %}{% endblock %}
+</body>
+</html>
